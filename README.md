@@ -1,3 +1,5 @@
+
+
 # Forest Fire Detection Using YOLO
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/aritrikg/Forest-Fire-Detection-YOLO)](https://github.com/aritrikg/Forest-Fire-Detection-YOLO/stargazers)
@@ -76,9 +78,23 @@ The trained YOLOv8 model demonstrated impressive performance on the D-Fire test 
 
 ---
 
+## Usage
+
+To run the interactive Streamlit demo locally:
+
+1. Install the required dependencies:
+   ```bash
+   pip install ultralytics streamlit opencv-python pillow requests
+   ```
+2. Launch the application:
+   ```bash
+   streamlit run FD.py
+   ```
+
+---
+
 ## Future Implications
 
 This research underscores the potential of computer vision in addressing real-world challenges, such as wildfire detection. As technology evolves, integrating machine learning tools into wildfire prevention and emergency response strategies could significantly enhance our ability to detect and mitigate wildfires effectively.
 
 ---
-
